@@ -1,3 +1,8 @@
+@font-face {
+	font-family: Assasins;
+	src: url(../res/fonts/assassins-font/Assassin-2PGw.ttf)
+}
+
 body {
     height: 100vh;
     margin: 0;
@@ -52,11 +57,17 @@ body {
     gap: 48px;
 }
 
-.logo {
+.header .sub .title {
+    font-family: Assasins;
+}
+
+.logo img {
     width: 64px;
     height: 64px;
     object-fit: cover;
-    mix-blend-mode: multiply;
+    mix-blend-mode: exclusion;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
 }
 
 .links .link {
