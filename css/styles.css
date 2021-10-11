@@ -11,6 +11,28 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    font-size: 48px;
+}
+
+h1,
+h2 {
+    font-weight: extra-bold;
+}
+
+h1,
+ul,
+.header p,
+.footer p,
+.call-to-action {
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .section {
     padding: 16px 10%;
     gap: 32px;
@@ -73,6 +95,11 @@ body {
 .links .link {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.links .home {
+    font-weight: 1000;
+    color: lightblue;
 }
 
 .body {
@@ -177,26 +204,4 @@ ul {
 
 .call-to-action .title {
     font-size: 24px;
-}
-
-h1 {
-    font-size: 48px;
-}
-
-h1,
-h2 {
-    font-weight: extra-bold;
-}
-
-h1,
-ul,
-.header p,
-.footer p,
-.call-to-action {
-    color: #F9FAF8;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
 }
